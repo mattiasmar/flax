@@ -35,6 +35,7 @@ install_requires = [
 tests_require = [
     "atari-py==0.2.5",  # Last version does not have the ROMs we test on pre-packaged
     "clu",  # All examples.
+    "git>=2.19",
     "gym==0.18.3",
     "jaxlib",
     "jraph",
@@ -45,7 +46,6 @@ tests_require = [
     "pytest-xdist==1.34.0",  # upgrading to 2.0 broke tests, need to investigate
     "pytype==2021.5.25",  # pytype 2021.6.17 complains on recurrent.py, need to investigate!
     "sentencepiece",  # WMT example.
-    "svn",
     "tensorflow_text>=2.4.0",  # WMT example.
     "tensorflow_datasets",
     "tensorflow",
