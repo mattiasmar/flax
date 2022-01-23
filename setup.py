@@ -29,8 +29,7 @@ install_requires = [
     "jax>=0.2.21",
     "matplotlib",  # only needed for tensorboard export
     "msgpack",
-    "optax",
-    "git>=2.19"
+    "optax"
 ]
 
 tests_require = [
